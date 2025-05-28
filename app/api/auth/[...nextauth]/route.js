@@ -19,7 +19,7 @@ const handler = NextAuth({
         session.user.id = sessionUser._id.toString();
         return session;
       } catch (error) {
-        console.log("Error", erro);
+        console.log("Error", error);
         return session;
       }
     },

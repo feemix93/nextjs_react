@@ -12,7 +12,7 @@ import {
 } from "next-auth/react";
 import { BuiltInProviderType } from "next-auth/providers";
 const Nav = () => {
-  const isUserLoggedIn = true;
+  // const isUserLoggedIn = true;
   const { data: session } = useSession();
   const [toggleDropdown, setToggleDropdown] = useState(false);
 

@@ -1,6 +1,6 @@
 "use client";
 import "@styles/global.css";
-
+// import "../app/globals.css";
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 // export const metadata = {

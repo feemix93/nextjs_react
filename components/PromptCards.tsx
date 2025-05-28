@@ -1,5 +1,5 @@
-const PromptCars = () => {
-  return <div>PromptCars</div>;
+const PromptCards = () => {
+  return <div>PromptCards</div>;
 };
 
-export default PromptCars;
+export default PromptCards;
